@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.headerBar1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0f1111;
+    color: #ffffff;
+    padding: 10px;
+    align-items: center;
+}
+.Address{
+    display: flex;
+}
+.headerBar1>div:hover{
+    border: 2px solid #fff;
+
+}
