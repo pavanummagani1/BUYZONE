@@ -12,10 +12,60 @@
     padding: 10px;
     align-items: center;
 }
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
 .Address{
     display: flex;
+    align-items: center;
+    gap: 8px;
 }
-.headerBar1>div:hover{
-    border: 2px solid #fff;
+.deliver{
+    color: #817e7e;
+    font-size: 16px;
+}
+.location{
+    font-weight: 600;
+}
+.searchbar{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+.height{
+    height: 100%;
+}
+.searchDropdown{
+    font-weight: 200;
+    text-align: center;
+}
+.search{
+    width: 85%;
+}
+.searchIcon{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #f6d663;
+    color: #000;
+}
+.user{
+font-size: 14px;
+}
+.account{
+font-size: 18px;
+font-weight: 700;
+}
+.return{
+    width: 5%;
+}
+.return::first-line{
+    font-size: 16px;
+}
+/* .return:: */
+.headerBar1>div:hover:not(.searchbar){
+    border: 1px solid #fff;
 
 }
