@@ -58,7 +58,7 @@ header {
 
 .searchDropdown {
     text-align: center;
-    width: 10%;
+    width: 2.5em;
 }
 
 .search {
@@ -73,7 +73,7 @@ header {
     /* text-align: center; */
     background-color: #f6d663;
     color: #000;
-    width: 10%;
+    width: 2.5em;
 }
 
 /* Language*/
@@ -108,6 +108,7 @@ header {
 .cart{
     font-size: 1.2em;
     display: flex;
+    gap: 2px;
 }
 .userlogin{
     display: none;
