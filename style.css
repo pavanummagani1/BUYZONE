@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 /* HAMBURGER */
@@ -108,15 +109,36 @@ header {
 .userlogin{
     display: none;
 }
-.signin{
+.loginbar{
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    position: absolute;
+    right: 10px;
+    top: 62px;
 }
-.signin>a{
+.signin-btn{
+    background-color: #f6d663;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+    border-color: #f6d663;
+    border-radius: 10px;
+}
+.loginbar>a{
     text-decoration: none;
     color: #000;
+}
+
+#loginbox{
+    display: none;
+}
+#loginbox:checked~.loginbar{
+    display: flex;
 }
 
 @media screen and (min-width:1000px) and (max-width:1199px) {
@@ -145,6 +167,9 @@ header {
     .userlogin{
         display: flex;
     }
+    #loginbox:checked~.loginbar{
+        display: flex;
+    }
     .searchbar{
         width: 50%;
     }
@@ -155,6 +180,9 @@ header {
         display: none;
     }
     .userlogin{
+        display: flex;
+    }
+    #loginbox:checked~.loginbar{
         display: flex;
     }
     .searchbar{
