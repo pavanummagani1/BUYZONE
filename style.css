@@ -58,7 +58,7 @@ header {
 
 .searchDropdown {
     text-align: center;
-    width: 2.5em;
+    width: 10%;
 }
 
 .search {
@@ -73,7 +73,7 @@ header {
     /* text-align: center; */
     background-color: #f6d663;
     color: #000;
-    width: 2.5em;
+    width: 10%;
 }
 
 /* Language*/
@@ -108,16 +108,26 @@ header {
 .cart{
     font-size: 1.2em;
     display: flex;
-    gap: 2px;
 }
 .userlogin{
     display: none;
+}
+.signin{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.signin>a{
+    text-decoration: none;
+    color: #000;
 }
 
 @media screen and (min-width:1000px) and (max-width:1199px) {
     .Address{
         display: none;
     }
+    
 }
 
 @media screen and (min-width:751px) and (max-width:999px){
